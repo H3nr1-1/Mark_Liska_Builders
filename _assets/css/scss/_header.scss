@@ -1,0 +1,48 @@
+@use 'variables' as v;
+
+header {
+    background: url(/_assets/images/blue_print_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+        font-family: "Alfa Slab One", serif;
+        color: red;
+        text-shadow: 3px 3px blue;
+
+        span {
+            font-family: "Yesteryear", cursive;
+        }
+    }
+
+    .meta-info {
+        padding: 15px;
+        border: 1px black;
+        border-radius: 10px;
+        background: rgba(27, 26, 26, 0.556);
+
+        h4 {
+            color: white;
+            font-weight: 800;
+        }
+
+        .main-contact{
+            padding: 5px;
+            border: 1px solid black;
+            transition: all 0.2s ease-in;
+
+            a {
+                text-decoration: none;
+            }
+
+            &:hover {
+                box-shadow: 3px 3px red;
+
+                &:active {
+                    transform: translateY(3px);
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

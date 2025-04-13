@@ -1,0 +1,14 @@
+@use 'variables' as v;
+
+nav {
+    background: white;
+
+    img {
+        border-radius: 2em;
+        margin: auto;
+    }
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+}
