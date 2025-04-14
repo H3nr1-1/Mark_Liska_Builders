@@ -5,3 +5,49 @@ main {
     padding-top: 5em;
     padding-bottom: 5em;
 }
+
+.features {
+    background: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    img {
+        width: 100%;
+        box-shadow: 0 0 10px black;
+    }
+
+    h3 {
+        margin: auto;
+        border-bottom: 2px solid black;
+        width: 60%;
+    }
+
+    p {
+        color: gray;
+        max-width: 65ch;
+        margin: auto;
+    }
+}
+
+.form-submit {
+    padding: 5px;
+    border: 1px solid black;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        box-shadow: 3px 3px red;
+
+        &:active {
+            transform: translateY(3px);
+            box-shadow: none;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.testimonials {
+    background: white;
+}
