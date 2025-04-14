@@ -1,0 +1,25 @@
+@use 'variables' as v;
+
+section.introduction {
+    background: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    h2 {
+        font-size: 3em;
+    }
+
+    hr {
+        max-width: 30%;
+        margin: auto;
+    }
+
+    p {
+        margin: auto;
+        max-width: 75%;
+
+        @media (max-width: 768px) {
+            max-width: 90%;
+        }
+    }
+}

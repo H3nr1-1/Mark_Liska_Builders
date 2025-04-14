@@ -9,9 +9,18 @@ header {
         font-family: "Alfa Slab One", serif;
         color: red;
         text-shadow: 3px 3px blue;
+        font-size: 5em;
+        letter-spacing: 10px;
+        
+
+        @media (max-width: 768px) {
+            font-size: 3em;
+            letter-spacing: 3px;
+        }
 
         span {
             font-family: "Yesteryear", cursive;
+            letter-spacing: 0;
         }
     }
 

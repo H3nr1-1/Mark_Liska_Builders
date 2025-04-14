@@ -1,0 +1,22 @@
+@use 'variables' as v;
+
+main.testimonials {
+    background: white;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .testimonial-card {
+        border-right: 2px solid lightgray;
+
+        @media (max-width: 768px) {
+            border-right: none;
+            border-bottom: 2px solid lightgray;
+        }
+    }
+
+    h3{
+        margin-top: 20px;
+    }
+}

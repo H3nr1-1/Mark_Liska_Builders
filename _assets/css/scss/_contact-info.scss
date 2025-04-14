@@ -1,0 +1,32 @@
+@use 'variables' as v;
+
+main.contact-info {
+    background: white;
+    border-top: 2px inset;
+    border-bottom: 2px inset;
+    box-shadow: 0 0 8px;
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .contact-card {
+        padding: 30px;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 15px;
+        border: 1px solid black;
+        box-shadow: 0 0 10px;
+    }
+
+    h3 {
+        font-size: 2em;
+        text-align: center;
+        padding: 10px;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+}

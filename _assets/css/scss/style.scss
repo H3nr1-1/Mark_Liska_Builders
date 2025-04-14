@@ -1,8 +1,11 @@
 @use 'nav';
 @use 'header';
+@use 'banner';
 @use 'main';
 @use 'carousel';
+@use 'testimonials';
 @use 'form';
+@use 'contact-info';
 @use 'footer';
 @use 'variables'as v;
 
@@ -20,5 +23,5 @@ body {
     width: 85%;
     margin: auto;
     background: antiquewhite;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 15px black;
 }
