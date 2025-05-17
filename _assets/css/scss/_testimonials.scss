@@ -3,20 +3,33 @@
 main.testimonials {
     background: white;
 
-    h2 {
-        font-size: 2em;
+    h3 {
+        font-size: 2.5em;
     }
 
-    .testimonial-card {
-        border-right: 2px solid lightgray;
-
-        @media (max-width: 768px) {
-            border-right: none;
-            border-bottom: 2px solid lightgray;
-        }
+    hr {
+        max-width: 30%;
+        margin: auto;
     }
 
-    h3{
-        margin-top: 20px;
+    p {
+        text-align: center;
+        max-width: 60%;
+        margin: auto;
+    } 
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M9.5 1.5a.5.5 0 0 0-.8.4v12.2a.5.5 0 0 0 .8.4l6-6a.5.5 0 0 0 0-.8l-6-6z'/%3E%3C/svg%3E");
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 1.5a.5.5 0 0 1 .8.4v12.2a.5.5 0 0 1-.8.4l-6-6a.5.5 0 0 1 0-.8l6-6z'/%3E%3C/svg%3E");
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+        background-size: 100% 100%;
     }
 }
