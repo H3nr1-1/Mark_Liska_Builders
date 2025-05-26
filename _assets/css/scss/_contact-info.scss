@@ -7,7 +7,8 @@ main.contact-info {
     box-shadow: 0 0 8px;
 
     h2 {
-        font-size: 3em;
+        font-family: "Yesteryear", cursive;
+        font-size: 5em;
     }
 
     .contact-card {
@@ -15,12 +16,13 @@ main.contact-info {
         max-width: 80%;
         margin: auto;
         margin-top: 15px;
-        border: 1px solid black;
         box-shadow: 0 0 10px;
+        background: rgb(226, 244, 250);
     }
 
     h3 {
-        font-size: 2em;
+        font-family: "Yesteryear", cursive;
+        font-size: 2.4em;
         text-align: center;
         padding: 10px;
     }

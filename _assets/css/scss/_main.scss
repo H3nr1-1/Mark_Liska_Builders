@@ -30,8 +30,14 @@ main {
 }
 
 .form-submit {
-    padding: 5px;
-    border: 1px solid black;
+    background: white;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    text-decoration: none;
+    font-family: "Yesteryear", cursive;
+    font-size: 1.8em;
+    border-radius: 1em;
     transition: all 0.2s ease-in;
 
     &:hover {

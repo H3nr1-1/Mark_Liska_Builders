@@ -1,10 +1,16 @@
 @use 'variables' as v;
 
 main.testimonials {
-    background: white;
+    background: url(/_assets/images/blue_print_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: fit-content;
 
     h3 {
-        font-size: 2.5em;
+        font-family: "Alfa Slab One", serif;
+        font-size: 2.8em;
+        color: red;
+        text-shadow: 3px 3px royalblue;
     }
 
     hr {
@@ -13,6 +19,10 @@ main.testimonials {
     }
 
     p {
+        background: white;
+        opacity: .9;
+        border-radius: 1em;
+        box-shadow: 0 0 10px;
         text-align: center;
         max-width: 60%;
         margin: auto;
