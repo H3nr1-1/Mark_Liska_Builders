@@ -10,5 +10,18 @@ nav {
 
     .nav-link {
         font-size: 1.2em;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+
+        &:hover {
+            border-radius: 10px;
+            box-shadow: 0 0 10px;
+
+            &:active {
+                background: black;
+                color: white;
+                box-shadow: none;
+            }
+        }
     }
 }

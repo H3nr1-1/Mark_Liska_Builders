@@ -1,0 +1,10 @@
+@use 'variables' as v;
+
+footer {
+    background-color: whitesmoke;
+
+    hr {
+        margin: auto;
+        width: 60%;
+    }
+}
