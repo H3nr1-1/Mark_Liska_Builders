@@ -1,16 +1,18 @@
 @use 'variables' as v;
 
+// INTRO BANNER
 section.introduction {
     background: white;
     margin-top: 5em;
     margin-bottom: 5em;
 
     h2 {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     hr {
-        max-width: 30%;
+        max-width: 40%;
+        border-bottom: 5px solid;
         margin: auto;
     }
 
