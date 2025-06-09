@@ -7,21 +7,29 @@ section.introduction {
     margin-bottom: 5em;
 
     h2 {
-        font-size: 4em;
+        font-family: "Yesteryear", cursive;
+        color: red;
+        text-shadow: 3px 3px blue;
+        font-size: 5em;
     }
 
     hr {
         max-width: 40%;
-        border-bottom: 5px solid;
         margin: auto;
     }
 
     p {
+        font-family: "Alfa Slab One", serif;
+        border-radius: 1em;
+        box-shadow: 0 0 1em;
         margin: auto;
         max-width: 75%;
+        background: antiquewhite;
+        text-align: center;
 
         @media (max-width: 768px) {
             max-width: 90%;
+            text-align: left;
         }
     }
 }

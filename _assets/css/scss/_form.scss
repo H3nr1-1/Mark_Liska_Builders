@@ -7,12 +7,15 @@ form {
     padding-bottom: 10em;
 
     h2 {
+        font-family: "Yesteryear", cursive;
         font-size: 3em;
         color: red;
         text-shadow: 2px 2px blue;
     }
 
     .form-submit {
+        font-family: "Alfa Slab One", serif;
+        font-size: 1.4em;
         padding: 5px;
         border: 1px solid black;
         transition: all 0.2s ease-in;

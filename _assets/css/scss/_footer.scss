@@ -7,4 +7,15 @@ footer {
         margin: auto;
         width: 60%;
     }
+
+    .nav-item {
+        font-family: "Alfa Slab One", serif;
+        color: red;
+        transition: all 0.2s ease-in;
+        font-size: 1.2em;
+
+        &:hover {
+            text-shadow: 1.5px 1.5px red;
+        }
+    }
 }
