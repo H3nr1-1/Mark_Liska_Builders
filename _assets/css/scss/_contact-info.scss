@@ -13,22 +13,38 @@ main.contact-info {
 
     .contact-card {
         padding: 30px;
-        max-width: 80%;
         margin: auto;
+        height: 300px;
         margin-top: 15px;
         box-shadow: 0 0 10px;
         background: rgb(226, 244, 250);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
     }
 
     h3 {
         font-family: "Yesteryear", cursive;
-        font-size: 2.4em;
+        font-size: 3.5em;
         text-align: center;
         padding: 10px;
     }
 
-    p {
+    .alt-location {
+        color: antiquewhite;
+        text-shadow: 1px 1px black;
+    }
+
+    h4 {
         text-align: center;
         padding: 10px;
+    }
+
+    .contact-image {
+        background: url(/_assets/images/map.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
