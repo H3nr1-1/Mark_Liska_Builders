@@ -4,52 +4,63 @@ main {
     background: antiquewhite;
     padding-top: 5em;
     padding-bottom: 5em;
-}
 
-.features {
-    background: white;
-    margin-top: 5em;
-    margin-bottom: 5em;
-
-    img {
-        width: 100%;
-        box-shadow: 0 0 10px black;
+    .main-title{
+        font-size: 5em;
+        font-family: "Yesteryear", cursive;
     }
 
-    h3 {
-        margin: auto;
-        border-bottom: 2px solid black;
-        width: 60%;
-    }
-
-    p {
-        color: gray;
-        max-width: 65ch;
-        margin: auto;
-    }
-}
-
-.form-submit {
-    background: white;
-    margin: auto;
-    padding: 15px;
-    box-shadow: 0 0 15px black;
-    text-decoration: none;
-    font-family: "Yesteryear", cursive;
-    font-size: 1.8em;
-    border-radius: 1em;
-    transition: all 0.2s ease-in;
-
-    &:hover {
-        box-shadow: 3px 3px red;
-
-        &:active {
-            transform: translateY(3px);
-            box-shadow: none;
+      @media (max-width: 678px) {
+        .media-title{
+            font-size: 1.5em;
         }
     }
 
-    a {
+    .features {
+        background: white;
+        margin-top: 5em;
+        margin-bottom: 5em;
+
+        img {
+            width: 100%;
+            box-shadow: 0 0 10px black;
+        }
+
+        h3 {
+            margin: auto;
+            border-bottom: 2px solid black;
+            width: 60%;
+        }
+
+        p {
+            color: gray;
+            max-width: 65ch;
+            margin: auto;
+        }
+    }
+
+    .form-submit {
+        background: white;
+        margin: auto;
+        padding: 15px;
+        box-shadow: 0 0 15px black;
         text-decoration: none;
+        font-family: "Yesteryear", cursive;
+        font-size: 1.8em;
+        border-radius: 1em;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            box-shadow: 3px 3px red;
+
+            &:active {
+                transform: translateY(3px);
+                box-shadow: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
     }
 }
